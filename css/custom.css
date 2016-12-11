@@ -1,0 +1,45 @@
+/* your styles go here */
+
+/* changes the background*/ 
+#navbar{
+	background-color: #5c3181;
+	color: #fff;
+}
+.navbar ul.nav > li > a {
+	color: #fff;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.logo{
+	position: relative;
+	top: 150px;
+}
+.titulo{
+	position: relative;
+	top: 60px;
+	font-family: 'Rock Salt', cursive;
+}
+.titulo2{
+	position: relative;
+	top: 40px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+.carousel-caption{
+	background-color: #050505;
+	width: 100%;
+}
+.navbar-brand{
+	font-family: 'Rock Salt', cursive;
+	color: #000000;
+} 
+
+.title{
+	font-family: 'Rock Salt', cursive;
+}
+
+.progress-title, .heading, .btn, .lead {
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+
