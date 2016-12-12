@@ -1,3 +1,12 @@
+/*prueba de skill bar*/
+jQuery(document).ready(function(){
+    jQuery('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+            width:jQuery(this).attr('data-percent')
+        },6000);
+    });
+}); 
+
 if ($.cookie("theme_csspath")) {
     $('link#theme-stylesheet').attr("href", $.cookie("theme_csspath"));
 }
