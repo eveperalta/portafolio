@@ -932,7 +932,7 @@ figure {
   margin: 0;
 }
 img {
-  vertical-align: middle;
+  vertical-align: left;
 }
 .img-responsive,
 .thumbnail > img,
@@ -963,8 +963,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 0;
   border-top: 1px solid #eee;
 }

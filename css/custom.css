@@ -1,5 +1,5 @@
 /* your styles go here */
-/*progress bar test*/
+
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -7,12 +7,14 @@ body {
 }
 .service{
 	color: #fff;
+	line-height: 25px;
+	font-size: 14px;
 }
 p{
   color:#525252;
   font-size:14px;
 }
-
+/*progress bar */
 .skillbar {
 	position:relative;
 	display:block;
@@ -90,41 +92,65 @@ width:auto;
 	background-color: #5c3181;
 	color: #fff;
 	border: none;
+	font-size: 14px;
 }
 .navbar ul.nav > li > a {
 	color: #fff;
 	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 14px;
 }
 
 .logo{
 	position: relative;
-	top: 150px;
+	top: 100px;
 }
 .titulo{
-	position: relative;
-	top: 60px;
 	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 24px;
+}
+.titulo1{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 20px;
 }
 .titulo2{
-	position: relative;
-	top: 40px;
 	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 30px;
 }
-.carousel-caption{
-	background-color: #050505;
-	width: 100%;
+.item{
+	background-image: url(../img/y0_vfxohayg-wesson-wang-compressor.jpg);
+	height: auto;
+	background-size: cover;
+	background-position: center;
 }
+/*.carousel-caption{
+	background-color: #0000;
+	height: auto;
+}*/
 .navbar-brand{
 	font-family: 'Shadows Into Light Two', cursive;
 	color: #000000;
+	font-size: 38px;
 } 
 
-
-.heading, .btn, .lead, .title {
+#myModalLabel{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-weight: bold;
+}
+.heading, .btn, .lead, .title, .form-group {
 	font-family: 'Shadows Into Light Two', cursive;
 }
+
 .lead{
 	color: #fff;
+	font-weight: bold;
 }
-
+.image{
+	position: center;
+	width: auto;
+	height: 200px;
+	top: -30px;
+}
+.text-left{
+	line-height: 25px;
+}
 

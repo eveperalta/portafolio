@@ -18,11 +18,6 @@ $(function () {
     fullScreenContainer();
     utils();
     sliding();
-  /*  contactForm();*/
- /*   map();*/
-/*    counters();*/
-    parallax();
-    demo();
 });
 
 $(window).load(function () {
@@ -48,36 +43,6 @@ $(window).resize(function () {
 });
 
 
-/* =========================================
- *  for demo purpose only - can be deleted 
- *  =======================================*/
-
-function demo() {
-
-    if ($.cookie("theme_csspath")) {
-	$('link#theme-stylesheet').attr("href", $.cookie("theme_csspath"));
-    }
-
-    $("#colour").change(function () {
-
-	if ($(this).val !== '') {
-
-	    var colour = $(this).val();
-	    var introImage = $('body').find('#intro .item');
-
-	    introImage.removeClass();
-	    introImage.addClass('item');
-	    introImage.addClass(colour);
-
-
-	    var theme_csspath = 'css/style.' + $(this).val() + '.css';
-	    $('link#theme-stylesheet').attr("href", theme_csspath);
-	    $.cookie("theme_csspath", theme_csspath, {expires: 365, path: '/'});
-	}
-
-	return false;
-    });
-}
 
 /* =========================================
  *  animations
@@ -131,39 +96,6 @@ function sliding() {
 	$('body').scrollTo($('#' + trgt), 800, {offset: -80});
 
     });
-}
-
-/* =========================================
- * sliders 
- *  =======================================*/
-
-function sliders() {
-    if ($('.owl-carousel').length) {
-
-	$(".customers").owlCarousel({
-	    items: 6,
-	    itemsDesktopSmall: [990, 4],
-	    itemsTablet: [768, 2],
-	    itemsMobile: [480, 1]
-	});
-	$(".testimonials").owlCarousel({
-	    items: 4,
-	    itemsDesktopSmall: [1170, 3],
-	    itemsTablet: [970, 2],
-	    itemsMobile: [750, 1]
-	});
-    }
-
-}
-
-/* =========================================
- * parallax 
- *  =======================================*/
-
-function parallax() {
-
-    $('.text-parallax').parallax("50%", 0.1);
-    
 }
 
 /* =========================================
