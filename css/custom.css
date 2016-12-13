@@ -90,6 +90,7 @@ width:auto;
 #navbar{
 	background-color: #5c3181;
 	color: #fff;
+	border: none;
 }
 .navbar ul.nav > li > a {
 	color: #fff;
@@ -103,7 +104,7 @@ width:auto;
 .titulo{
 	position: relative;
 	top: 60px;
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Shadows Into Light Two', cursive;
 }
 .titulo2{
 	position: relative;
@@ -115,20 +116,16 @@ width:auto;
 	width: 100%;
 }
 .navbar-brand{
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Shadows Into Light Two', cursive;
 	color: #000000;
 } 
 
-.title{
-	font-family: 'Rock Salt', cursive;
-}
 
-.heading, .btn, .lead {
+.heading, .btn, .lead, .title {
 	font-family: 'Shadows Into Light Two', cursive;
 }
 .lead{
 	color: #fff;
-
 }
 
 
