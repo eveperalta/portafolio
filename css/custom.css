@@ -150,7 +150,8 @@ width:auto;
 	position: center;
 	width: auto;
 	height: 200px;
-	top: -30px;
+	top: -25px;
+	padding-bottom: 10px;
 }
 .text-left{
 	line-height: 25px;
